@@ -1,4 +1,4 @@
-# trafficSignDetection
+# Traffic Sign Detection
 
 **Student:** Nikola Maksimovic SW15/2016
 
