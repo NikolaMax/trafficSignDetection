@@ -27,7 +27,7 @@ def makingModel(myListLen):
     return model
 
 def writeModel(model):
-    pickle_out = open("model_trained_" + str(Constants.EPOCHS_NUMBER) + ".p", "wb")  # write byte
+    pickle_out = open("model_trained" + str(Constants.EPOCHS_NUMBER) + ".p", "wb")  # write byte
     pickle.dump(model, pickle_out)
     pickle_out.close()
     cv2.waitKey(0)
